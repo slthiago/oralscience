@@ -1,0 +1,61 @@
+.conteudo{
+    background-color: #FAFAFA;
+}
+
+.topo{
+    background-image: url("../banner.jpg");
+    background-size: cover;
+}
+
+.footer{
+    background-image: url("footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 100px 0 100px 0;
+}
+
+@font-face{
+    font-family: MontserratBold;
+    src: url("fonts/Montserrat-Bold.ttf")
+}
+
+h2{
+    font-family: MontserratBold;
+    color: #0085BD;
+}
+
+@font-face{
+    font-family: Product Sans;
+    src: url("fonts/Product\ Sans\ Regular.ttf");
+}
+
+p, li{
+    font-family: Product Sans;
+    color: #999999;
+}
+
+@font-face{
+    font-family: Montserrat;
+    src: url("fonts/Montserrat-Regular.ttf");
+}
+h5{
+    font-family: Montserrat;
+    color: #999999;
+}
+
+.avatar{
+    width: 170px;
+    height: auto;
+    padding: 10px 0 30px 0;
+}
+
+.line{
+    height: 100px;
+    border-left: #999999 2px solid;
+}
+
+.container{
+    padding-left: 9% !important;
+    padding-right: 9% !important;
+}
